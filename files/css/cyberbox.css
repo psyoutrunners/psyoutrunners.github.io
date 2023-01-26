@@ -1,0 +1,72 @@
+@font-face {
+	font-family: Localhost;
+	src: url(../assets/fonts/Localhost.woff);
+}
+
+
+.cornered {
+    width: 120px;
+    height: 10px;
+    border-bottom: 25px solid black;
+    border-left: 40px solid transparent;
+	opacity:0.5;
+	margin-left:15px;
+}
+.cybox {
+    width: 160px;
+    height: 20px;
+    background-color: black;
+	opacity:0.5;
+	border-right:1px solid yellow;
+	border-bottom:1px solid yellow;
+	margin-left:15px;
+}
+
+.ctext {
+    position:absolute;
+	bottom:0px;
+	right:25px;
+	color:#f5c432;
+	padding:5px;
+	font-size:0.8em;
+	font-family: Localhost;
+}
+
+.cyberbox {
+	position:relative;
+	display:block;
+
+}
+
+.cyberbox:nth-child(3) {
+	margin-bottom:20px;
+}
+
+.sidebar {
+	width:190px;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100vh;
+	background-image: url("../assets/1.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color: #1e0626;
+	background-position: 0px 0px;
+	background-attachment: fixed;
+}
+
+.sidebar-container {
+	width:100%;
+	height:auto;
+	position:absolute;
+	bottom:0;
+	border-radius: 8px;
+	background-color: black;
+	opacity:0.5;
+
+}
+
+iframe {
+	width:100%;
+}

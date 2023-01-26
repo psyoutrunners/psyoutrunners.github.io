@@ -1,0 +1,140 @@
+/* Custom */
+
+body {
+  background-image: url("../assets/1.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color: #1e0626;
+  background-position: center 0px;
+  background-attachment: fixed;
+  margin:0px;
+}
+
+.brand {
+	width:250px;
+	position:fixed;
+	top:0;
+}
+
+.logo {
+  text-align: center;
+ 
+}
+
+h1 {
+display:none;
+}
+
+.splash {
+	margin:0px;
+	text-align:center;
+	border:0px solid #000;
+}
+
+.splash img {
+	width:80%;
+}
+
+.intro  {
+  display:none;
+}
+
+.masonry .brick img {
+  width:80%;
+  border:0px solid #000;
+  margin:0px;
+}
+
+.masonry .brick  {
+  text-align:center;
+}
+
+.blockmenu img {
+	margin-bottom: 10px;
+}
+
+.intro  div:nth-child(1) a {
+  color: #fff;
+}
+
+.intro  div:nth-child(1) a:hover {
+  color: #4fafe6;
+}
+
+/* Masonry on phones */
+@media only screen and (max-width: 768px) {
+	  .masonry {
+		column-count: 1;
+	  }
+	  
+	/* Bordered masonry */
+	.masonry.bordered {
+	  column-rule: 0px solid #eee;
+	  column-gap: 0px;
+	  text-align:center;
+	}
+
+	.masonry.bordered .brick {
+	  padding-bottom: 0px;
+	  margin-bottom: 0px;
+	  border-bottom: 0;
+	  width:100%;
+	}
+
+	  h1,h2 {
+	  display:none;
+	  }
+	  
+	.splash {
+		margin-top:0px;
+		margin-bottom:0px;
+		text-align:center;
+		width:100%;
+	}
+	  
+	.splash img {
+		width:100%;
+	}
+
+	.masonry .brick img {
+		width:100%;
+		border:0px solid #000;
+		margin:0px;
+	}
+
+	.container {
+		margin-left:190px;
+	}
+	  
+}
+
+
+
+/* Masonry on big screens */
+@media only screen and (max-width: 1900px) {
+	.container {
+		margin-left:190px;
+	}
+	
+	.splash {
+		margin-top:0px;
+		margin-bottom:0px;
+		text-align:center;
+		width:100%;
+	}
+	  
+	.splash img {
+		width:100%;
+	}
+
+	.masonry .brick img {
+		width:100%;
+		border:0px solid #000;
+		margin:0px;
+	}
+}
+
+/* Masonry on big screens */
+@media only screen and (min-width: 1920px) {
+
+}
